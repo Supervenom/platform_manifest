@@ -12,6 +12,10 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
+           
+  <remote  name="kxp"
+           fetch="https://github.com/KangXperiaProject/"
+           revision="ics" />        
 
   <default remote="aosp"
            sync-j="4" />
@@ -321,7 +325,7 @@
   <project path="vendor/qcom/opensource/v8" name="AOKP/android_vendor_qcom_opensource_v8" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
 <!--  Using our own AOKP vendor -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="ics" />
   <project path="vendor/semc" name="koush/proprietary_vendor_semc" remote="gh" revision="ics" />
   <project path="vendor/sony" name="defer/proprietary_vendor_sony" remote="gh" revision="ics" />
 
