@@ -45,7 +45,9 @@
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="gh" revision="ics" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" remote="gh" revision="ics" />
-
+  <project path="device/semc/mimmi" name="OldXperia/android_device_semc_mimmi" />
+  <project path="device/semc/robyn" name="OldXperia/android_device_semc_robyn" />
+  <project path="device/semc/shakira" name="OldXperia/android_device_semc_shakira" />
 <!-- These devices are not needed
   <project path="device/acer/picasso" name="AOKP/android_device_acer_picasso" remote="gh" revision="ics" />
   <project path="device/acer/t20-common" name="AOKP/android_device_acer_t20-common" remote="gh" revision="ics" />
@@ -215,6 +217,9 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
+  <!-- We prefer using our own framework instead of AOKP main framework tree 
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="ics" />
+  -->
   <project path="frameworks/base" name="Supervenom/frameworks_base" remote="gh" revision="ics" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -234,6 +239,11 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
+  <!-- We use some qualcomm hardware from cyanogenmodproject for better compatibility
+  <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
+  <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
+	<project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
+  -->
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
