@@ -46,9 +46,9 @@
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="gh" revision="ics" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" remote="gh" revision="ics" />
-  <project path="device/semc/mimmi" name="OldXperia/android_device_semc_mimmi" revision="ics" />
-  <project path="device/semc/robyn" name="OldXperia/android_device_semc_robyn" revision="ics" />
-  <project path="device/semc/shakira" name="OldXperia/android_device_semc_shakira" revision="ics" />
+  <project path="device/semc/mimmi" name="OldXperia/android_device_semc_mimmi" revision="ics" remote="gh" />
+  <project path="device/semc/robyn" name="OldXperia/android_device_semc_robyn" revision="ics" remote="gh" />
+  <project path="device/semc/shakira" name="OldXperia/android_device_semc_shakira" revision="ics" remote="gh" />
 <!-- These devices are not needed
   <project path="device/acer/picasso" name="AOKP/android_device_acer_picasso" remote="gh" revision="ics" />
   <project path="device/acer/t20-common" name="AOKP/android_device_acer_t20-common" remote="gh" revision="ics" />
@@ -340,8 +340,8 @@
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="ics" />
   <project path="vendor/semc" name="koush/proprietary_vendor_semc" remote="gh" revision="ics" />
   <project path="vendor/sony" name="defer/proprietary_vendor_sony" remote="gh" revision="ics" />
-  <project path="vendor/oxp" name="OldXperia/android_vendor_oxp" revision="ics" />
-  <project path="vendor/semc_7x27" name="OldXperia/proprietary_vendor_semc" revision="ics" />
+  <project path="vendor/oxp" name="OldXperia/android_vendor_oxp" revision="ics" remote="gh" />
+  <project path="vendor/semc_7x27" name="OldXperia/proprietary_vendor_semc" revision="ics" remote="gh" />
 <!-- in vendor/semc folder, we will set up symlinks "devicename" to "../semc_7x27/devicename" -->  
 
 
