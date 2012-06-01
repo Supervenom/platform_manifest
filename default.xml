@@ -11,6 +11,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com"
            revision="ics" />
            
   <remote  name="kxp"
@@ -339,6 +340,9 @@
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="ics" />
   <project path="vendor/semc" name="koush/proprietary_vendor_semc" remote="gh" revision="ics" />
   <project path="vendor/sony" name="defer/proprietary_vendor_sony" remote="gh" revision="ics" />
+  <project path="vendor/oxp" name="OldXperia/android_vendor_oxp" />
+  <project path="vendor/semc_7x27" name="OldXperia/proprietary_vendor_semc" />
+<!-- in vendor/semc folder, we will set up symlinks "devicename" to "../semc_7x27/devicename" -->  
 
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
