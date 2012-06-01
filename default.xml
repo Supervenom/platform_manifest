@@ -37,6 +37,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
 <!--  Devices supported by KangXperia Project  -->
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" remote="gh" revision="ics" />
   <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="gh" revision="ics" />
@@ -57,7 +59,6 @@
   <project path="device/amazon/otter" name="AOKP/device_amazon_otter" remote="gh" revision="ics" />
   <project path="device/asus/tf101" name="AOKP/device_asus_tf101" remote="gh" revision="ics" />
   <project path="device/asus/tf201" name="AOKP/device_asus_tf201" remote="gh" revision="ics" />
-  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
   <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
@@ -74,7 +75,7 @@
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
   <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
-  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  
   <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="gh" revision="ics" />
   <project path="device/samsung/captivatemtd" name="AOKP/device_samsung_captivatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
