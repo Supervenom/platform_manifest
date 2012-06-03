@@ -16,7 +16,10 @@
            
   <remote  name="kxp"
            fetch="https://github.com/KangXperiaProject/"
-           revision="ics" />        
+           revision="ics" />   
+  
+  <remote name="gummy"
+       	fetch="git://github.com/teamgummy/" />
 
   <default remote="aosp"
            sync-j="4" />
@@ -355,6 +358,11 @@
 <!--  These packages we have added unofficially   -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="ics" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="ics" />
+  <project path="packages/apps/Bubble" name="packages_apps_Bubble" remote="gummy" revision="master"/>
+  <project path="packages/apps/Cherry" name="packages_apps_Cherry" remote="gummy" revision="master"/>
+  <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
+  <project path="packages/apps/Spearmint" name="packages_apps_Spearmint" remote="gummy" revision="ics"/>
+
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
