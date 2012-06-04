@@ -358,6 +358,7 @@
   <project path="packages/apps/Cherry" name="packages_apps_Cherry" remote="gummy" revision="master"/>
   <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
   <project path="packages/apps/Spearmint" name="packages_apps_Spearmint" remote="gummy" revision="ics"/>
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="gh" revision="ics" />
 
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
