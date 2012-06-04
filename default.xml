@@ -53,7 +53,7 @@
   <project path="device/semc/fuji" name="CyanogenMod/android_device_semc_fuji" remote="gh" revision="ics" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="gh" revision="ics" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" remote="gh" revision="ics" />
-  <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" remote="gh" revision="ics" />
+  <project path="device/semc/es209ra" name="android_device_semc_es209ra" remote="kxp" revision="ics" />
 <!--  2010 xperia devices currently causing problems in build, will add after resolving
   <project path="device/semc/mimmi" name="OldXperia/android_device_semc_mimmi" revision="ics" remote="gh" />
   <project path="device/semc/robyn" name="OldXperia/android_device_semc_robyn" revision="ics" remote="gh" />
