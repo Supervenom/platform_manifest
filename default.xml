@@ -50,6 +50,7 @@
   <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="gh" revision="ics" />
   <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" remote="gh" revision="ics" />
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" remote="gh" revision="ics" />
+  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" remote="gh" revision="ics" />
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="gh" revision="ics" />
   <project path="device/semc/fuji" name="CyanogenMod/android_device_semc_fuji" remote="gh" revision="ics" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="gh" revision="ics" />
