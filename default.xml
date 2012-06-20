@@ -243,8 +243,7 @@
   <!-- We prefer using our own framework instead of AOKP main framework tree 
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="ics" />
   -->
-
-  <project path="frameworks/base" name="Supervenom/frameworks_base" remote="gh" revision="ics" />
+  <project path="frameworks/base" name="frameworks_base" remote="kxp" revision="ics" />
   
   <project path="frameworks/compile/libbcc" name="AOKP/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
 
