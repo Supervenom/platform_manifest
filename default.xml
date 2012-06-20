@@ -46,20 +46,20 @@
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
 <!--  Devices supported by KangXperia Project  -->
-  <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" remote="gh" revision="ics" />
-  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="gh" revision="ics" />
-  <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" remote="gh" revision="ics" />
-  <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" remote="gh" revision="ics" />
-  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" remote="gh" revision="ics" />
-  <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="gh" revision="ics" />
-  <project path="device/semc/fuji" name="CyanogenMod/android_device_semc_fuji" remote="gh" revision="ics" />
-  <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="gh" revision="ics" />
+  <project path="device/semc/anzu" name="android_device_semc_anzu" remote="cm" revision="ics" />
+  <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="cm" revision="ics" />
+  <project path="device/semc/urushi" name="android_device_semc_urushi" remote="cm" revision="ics" />
+  <project path="device/semc/smultron" name="android_device_semc_smultron" remote="cm" revision="ics" />
+  <project path="device/semc/satsuma" name="android_device_semc_satsuma" remote="cm" revision="ics" />
+  <project path="device/semc/zeus" name="android_device_semc_zeus" remote="cm" revision="ics" />
+  <project path="device/semc/fuji" name="android_device_semc_fuji" remote="cm" revision="ics" />
+  <project path="device/semc/zeus-common" name="android_device_semc_zeus-common" remote="cm" revision="ics" />
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="ics" />
   <project path="device/semc/es209ra" name="android_device_semc_es209ra" remote="kxp" revision="ics" />
   <project path="device/semc/mimmi" name="android_device_semc_mimmi" revision="ics" remote="kxp" />
   <project path="device/semc/robyn" name="android_device_semc_robyn" revision="ics" remote="kxp" />
   <project path="device/semc/shakira" name="android_device_semc_shakira" revision="ics" remote="kxp" />
-  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" remote="gh" revision="ics" />
+  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="cm" revision="ics" />
  
 -->
 <!-- These devices are not needed
@@ -257,11 +257,11 @@
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
   -->
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="gh" revision="ics" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="ics" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="ics" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -361,7 +361,7 @@
   <project path="packages/apps/Cherry" name="packages_apps_Cherry" remote="gummy" revision="master"/>
   <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
   <project path="packages/apps/Spearmint" name="packages_apps_Spearmint" remote="gummy" revision="ics"/>
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="gh" revision="ics" />
+  
 
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
