@@ -372,7 +372,8 @@
   <project path="packages/apps/Bubble" name="packages_apps_Bubble" remote="gummy" revision="master"/>
   <project path="packages/apps/Cherry" name="packages_apps_Cherry" remote="gummy" revision="master"/>
   <project path="packages/apps/Grape" name="packages_apps_Grape" remote="gummy" revision="master"/>
-  <project path="packages/apps/Spearmint" name="packages_apps_Spearmint" remote="gummy" revision="ics"/>
+  <project path="packages/apps/Orange" name="packages_apps_Orange" remote="gummy" revision="master"/>
+  <project path="packages/apps/Spearmint" name="packages_apps_Libertygold" remote="gummy" revision="master"/>
   <project path="packages/apps/AchepClock" name="packages_apps_AchepClock" remote="kxp" revision="ics" />
   
 
