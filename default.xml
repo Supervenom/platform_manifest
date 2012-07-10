@@ -57,6 +57,8 @@
   <project path="device/semc/es209ra" name="android_device_semc_es209ra" remote="kxp" revision="ics" />
   <project path="device/semc/coconut" name="android_device_semc_coconut" remote="cm" revision="ics" />
   <project path="device/semc/mango" name="android_device_semc_mango" remote="cm" revision="ics" />
+  
+  <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="gh" revision="4.1.B.0.431" />
 
 
 <!-- ARM v6 devices have separate manifest
