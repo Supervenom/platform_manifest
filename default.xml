@@ -377,6 +377,7 @@
   <project path="packages/apps/Orange" name="packages_apps_Orange" remote="gummy" revision="master"/>
   <project path="packages/apps/Spearmint" name="packages_apps_Libertygold" remote="gummy" revision="master"/>
   <project path="packages/apps/AchepClock" name="packages_apps_AchepClock" remote="kxp" revision="ics" />
+  <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="master" />
   
 
 
