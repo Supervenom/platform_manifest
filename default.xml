@@ -30,6 +30,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+<!--removing unneeded devices
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -40,6 +41,7 @@
   <project path="device/samsung/toro" name="device/samsung/toro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+-->
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
