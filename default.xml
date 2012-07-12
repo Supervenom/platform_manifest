@@ -344,7 +344,7 @@
   <project path="device/semc/zeus" name="android_device_semc_zeus" remote="cm" revision="jellybean" />
   <project path="device/semc/zeusc" name="android_device_semc_zeusc" remote="cm" revision="jellybean" />
   <project path="device/semc/zeus-common" name="android_device_semc_zeus-common" remote="cm" revision="jellybean" />
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="ics" />
   
   <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cm" revision="jellybean" />
   
