@@ -347,6 +347,11 @@
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
   
   <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cm" revision="jellybean" />
+  
+  <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="master" />
+  
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="jellybean" />
 
 
 </manifest>
