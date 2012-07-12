@@ -328,8 +328,10 @@
   <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="jb" />
 
+  <project path="platform_manifest/aokp" name="AOKP/platform_manifest" remote="gh" revision="jb" />
+
 <!-- any repo added by KXP should be below this line. if any repo is replaced, commit out the original above and add new one below -->
-  <project path="platform_manifest" name="platform_manifest" remote="kxp" revision="jb" />
+  <project path="platform_manifest/kxp" name="platform_manifest" remote="kxp" revision="jb" />
   
   <project path="device/semc/anzu" name="android_device_semc_anzu" remote="cm" revision="jellybean" />
   <project path="device/semc/urushi" name="android_device_semc_urushi" remote="cm" revision="jellybean" />
