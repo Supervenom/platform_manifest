@@ -330,6 +330,23 @@
 
 <!-- any repo added by KXP should be below this line. if any repo is replaced, commit out the original above and add new one below -->
   <project path="platform_manifest" name="platform_manifest" remote="kxp" revision="jb" />
+  
+  <project path="device/semc/anzu" name="android_device_semc_anzu" remote="cm" revision="jellybean" />
+  <project path="device/semc/urushi" name="android_device_semc_urushi" remote="cm" revision="jellybean" />
+  <project path="device/semc/iyokan" name="android_device_semc_iyokan" remote="cm" revision="jellybean" />
+  <project path="device/semc/haida" name="android_device_semc_haida" remote="cm" revision="jellybean" />
+  <project path="device/semc/hallon" name="android_device_semc_hallon" remote="cm" revision="jellybean" />
+  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="cm" revision="jellybean" />
+  <project path="device/semc/mango" name="android_device_semc_mango" remote="cm" revision="jellybean" />
+  <project path="device/semc/smultron" name="android_device_semc_smultron" remote="cm" revision="jellybean" />
+  <project path="device/semc/satsuma" name="android_device_semc_satsuma" remote="cm" revision="jellybean" />
+  <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeus" name="android_device_semc_zeus" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeusc" name="android_device_semc_zeusc" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeus-common" name="android_device_semc_zeus-common" remote="cm" revision="jellybean" />
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
+  
+  <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cm" revision="jellybean" />
 
 
 </manifest>
