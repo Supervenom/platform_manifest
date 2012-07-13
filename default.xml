@@ -275,9 +275,9 @@
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
+  <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="ics" />
-  <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="ics" />
