@@ -338,7 +338,7 @@
   <project path="device/semc/iyokan" name="android_device_semc_iyokan" remote="cm" revision="jellybean" />
   <project path="device/semc/haida" name="android_device_semc_haida" remote="cm" revision="jellybean" />
   <project path="device/semc/hallon" name="android_device_semc_hallon" remote="cm" revision="jellybean" />
-  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="cm" revision="jellybean" />
+  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="kxp" revision="jellybean" />
   <project path="device/semc/mango" name="android_device_semc_mango" remote="cm" revision="jellybean" />
   <project path="device/semc/smultron" name="android_device_semc_smultron" remote="cm" revision="jellybean" />
   <project path="device/semc/satsuma" name="android_device_semc_satsuma" remote="cm" revision="jellybean" />
