@@ -352,14 +352,15 @@
   <project path="device/semc/zeus" name="android_device_semc_zeus" remote="cm" revision="jellybean" />
   <project path="device/semc/zeusc" name="android_device_semc_zeusc" remote="cm" revision="jellybean" />
   <project path="device/semc/zeus-common" name="android_device_semc_zeus-common" remote="cm" revision="jellybean" />
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="ics" />
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jb" />
   
   <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cm" revision="jellybean" />
   
-  <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="master" />
+  <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="jellybean" />
   
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="jellybean" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="jellybean" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="jellybean" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="jellybean" />
 
 
 </manifest>
