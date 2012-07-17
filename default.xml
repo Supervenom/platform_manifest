@@ -51,10 +51,11 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/toro" name="device/samsung/toro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
 -->
+
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
@@ -204,7 +205,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="frameworks/av" name="platform/frameworks/av" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -277,7 +278,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
