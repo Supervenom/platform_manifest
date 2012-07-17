@@ -16,13 +16,18 @@
            
   <remote  name="kxp"
            fetch="https://github.com/KangXperiaProject/"
-           revision="ics" />   
+           revision="ics" />  
+
+  <remote  name="axp"
+           fetch="https://github.com/AOKPXperia/"
+           revision="ics"/>
   
   <remote name="gummy"
        	fetch="git://github.com/teamgummy/" />
 
   <default remote="aosp"
-           sync-j="4" />
+           sync-j="4" 
+           revision="ics"/>
 
   <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -385,6 +390,13 @@
   <project path="packages/apps/Spearmint" name="packages_apps_Libertygold" remote="gummy" revision="master"/>
   <project path="packages/apps/AchepClock" name="packages_apps_AchepClock" remote="kxp" revision="ics" />
   <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="master" />
+  
+  <!-- repos from AOKPXperia PRoject for xperia 2012 support -->
+  <project path="device/sony/nypon" name="device_sony_nypon" />
+  <project path="device/sony/pepper" name="device_sony_pepper" />
+  <project path="device/sony/lotus" name="device_sony_lotus" />
+  <project path="device/sony/kumquat" name="device_sony_kumquat" />
+  <project path="device/sony/u8500_common" name="device_sony_u8500_common" />
   
 
 
