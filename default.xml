@@ -392,11 +392,11 @@
   <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="gh" revision="master" />
   
   <!-- repos from AOKPXperia PRoject for xperia 2012 support -->
-  <project path="device/sony/nypon" name="device_sony_nypon" />
-  <project path="device/sony/pepper" name="device_sony_pepper" />
-  <project path="device/sony/lotus" name="device_sony_lotus" />
-  <project path="device/sony/kumquat" name="device_sony_kumquat" />
-  <project path="device/sony/u8500_common" name="device_sony_u8500_common" />
+  <project path="device/sony/nypon" name="device_sony_nypon" remote="axp"/>
+  <project path="device/sony/pepper" name="device_sony_pepper" remote="axp"/>
+  <project path="device/sony/lotus" name="device_sony_lotus" remote="axp"/>
+  <project path="device/sony/kumquat" name="device_sony_kumquat" remote="axp"/>
+  <project path="device/sony/u8500_common" name="device_sony_u8500_common" remote="axp"/>
   
 
 
