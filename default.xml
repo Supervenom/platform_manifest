@@ -373,7 +373,7 @@
   <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" remote="cm" revision="jellybean" />
   <project path="device/semc/haida" name="CyanogenMod/android_device_semc_haida" remote="cm" revision="jellybean" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" remote="cm" revision="jellybean" />
-  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="kxp" revision="jellybean" />
+  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" remote="cm" revision="jellybean" />
   <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" remote="cm" revision="jellybean" />
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" remote="cm" revision="jellybean" />
   <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" remote="cm" revision="jellybean" />
@@ -381,15 +381,15 @@
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="cm" revision="jellybean" />
   <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" remote="cm" revision="jellybean" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="cm" revision="jellybean" />
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jb" />
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
 
   <project path="vendor/kxp" name="vendor_kxp" remote="kxp" revision="jb" />
-  <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="ics" />
+  <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="jellybean" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="cm" revision="jellybean" />
   
   <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="cm" revision="jellybean" />
   
-  <project path="vendor/ti/fmradio" name="freexperia/vendor_ti_fmradio" remote="cm" revision="jellybean" />
+  <project path="vendor/ti/fmradio" name="pikpok/vendor_ti_fmradio" remote="gh" revision="jellybean" />
   
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="jellybean" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="jellybean" />
