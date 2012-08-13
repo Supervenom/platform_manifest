@@ -354,7 +354,6 @@
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
   <project path="vendor/asus/grouper" name="AOKP/vendor_asus_grouper" remote="aokp" revision="jb" />
@@ -383,6 +382,7 @@
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="cm" revision="jellybean" />
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
 
+  <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="jellybean" />
   <project path="vendor/kxp" name="vendor_kxp" remote="kxp" revision="jb" />
   <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="jellybean" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="cm" revision="jellybean" />
