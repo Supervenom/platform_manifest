@@ -415,19 +415,19 @@ this avoid merging conflicts from AOKP manifest
 
 
 <!-- We use hardware from CM 10 -->
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="fxp"/>
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="fxp"/>
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="fxp"/>
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="fxp"/>
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="fxp"/>
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="fxp"/>
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="fxp"/>
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="fxp"/>
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="fxp"/>
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="fxp"/>
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="fxp"/>
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="fxp"/>
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="fxp"/>
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="fxp"/>
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="fxp" revision="jellybean"/>
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="fxp" revision="jellybean"/>
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="fxp" revision="jellybean"/>
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="fxp" revision="jellybean"/>
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="fxp" revision="jellybean"/>
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="fxp" revision="jellybean"/>
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="fxp" revision="jellybean"/>
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="fxp" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="fxp" revision="jellybean"/>
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="fxp" revision="jellybean"/>
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="fxp" revision="jellybean"/>
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="fxp" revision="jellybean"/>
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="fxp" revision="jellybean"/>
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="fxp" revision="jellybean"/>
 
 </manifest>
