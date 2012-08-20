@@ -400,7 +400,7 @@ this avoid merging conflicts from AOKP manifest
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="cm" revision="jellybean" />
+  <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="fxp" revision="jellybean" />
 
 <!-- Vendors -->
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="jellybean" />
