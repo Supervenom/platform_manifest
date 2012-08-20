@@ -4,21 +4,20 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote  name="gh"
+           fetch="https://github.com/"
+           />
+
+  <remote name="kxp"
+           fetch="https://github.com/KangXperiaProject/"
+           revision="jb" />         
+
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />
-
-  <remote name="kxp"
-           fetch="https://github.com/KangXperiaProject/"
-           revision="jb" />
-
-  <remote name="fxp"
            fetch="https://github.com/"
-           revision="jellybean"
            review="review.cyanogenmod.com" />
 
   <default remote="aosp"
@@ -29,12 +28,12 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jellybean" />
-  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="jellybean" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="development" name="AOKP/platform_development" remote="aokp" revision="jb" />
+  <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -42,30 +41,25 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-<!--
+
+<!--removing unneeded devices
   <project path="device/asus/grouper" name="AOKP/android_device_asus_grouper" remote="aokp" revision="jb" />
+  <project path="device/asus/grouper" name="device/asus/grouper" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="aokp" revision="jb" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/d2-common" name="AOKP/android_device_samsung_d2-common" remote="aokp" revision="jb" />
   <project path="device/samsung/d2tmo" name="AOKP/android_device_samsung_d2tmo" remote="aokp" revision="jb" />
-  <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="aokp" revision="jb" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="aokp" revision="jb" />
   <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="aokp" revision="jb" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5113" name="AOKP/android_device_samsung_p5113" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
 -->
+
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
@@ -75,7 +69,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/bash" name="android_external_bash" remote="cm" revision="jellybean" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="jellybean" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bluetooth/bluez" name="AOKP/external_bluetooth_bluez" remote="aokp" revision="jb" />
@@ -83,7 +77,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/chromium" name="platform/external/chromium" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -141,7 +135,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/libmtp" name="platform/external/libmtp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="jellybean" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -159,7 +153,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="jellybean" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="jellybean" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -176,7 +170,7 @@
   <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/openssh" name="platform/external/openssh" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="jellybean" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="jellybean" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/ping6" name="platform/external/ping6" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -214,8 +208,8 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/wpa_supplicant_8" name="AOKP/android_external_wpa_supplicant_8" remote="aokp" revision="jb" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="jellybean" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
@@ -237,15 +231,30 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+<!-- We are using from CM for now -->
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="jellybean"/>
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="jellybean"/>
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware"  remote="cm" revision="jellybean"/>
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="jellybean"/>
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="jellybean"/>
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="jellybean"/>
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="jellybean"/>
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="gh" revision="jellybean"/>
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="jellybean"/>
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="jellybean"/>
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="jellybean"/>
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="jellybean"/>
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="jellybean"/>
 <!--
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="aokp" revision="jb" />
   <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="aokp" revision="jb" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" remote="aokp" revision="jb" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -341,90 +350,54 @@
   <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
-
-<!--
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
--->
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
-<!--
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
-  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb" />
--->
+  <project path="vendor/asus/grouper" name="AOKP/vendor_asus_grouper" remote="aokp" revision="jb" />
 
-  <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="cm" revision="jellybean" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
 
-<!--
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb" />
--->
-
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
-
-<!--
-==========================================================================================================================
-KANG XPERIA PROJECT
-==========================================================================================================================
-all repositories needed for KangXperiaProject shall remain below this line
-if any repository is replaced, then comment it out above and add new one below
-this avoid merging conflicts from AOKP manifest
-==========================================================================================================================
--->
-<!-- We keep both the AOKP manifest as well as our own manifest. Enables us to submit patch to both -->
   <project path="manifest/aokp" name="AOKP/platform_manifest" remote="aokp" revision="jb" review="gerrit.aokp.co" />
-  <project path="manifest/kxp" name="platform_manifest" remote="kxp" revision="jb" />
 
-<!-- Devices and commons used by KXP -->
-  <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" remote="fxp" revision="jellybean" />
-  <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" remote="fxp" revision="jellybean" />
-  <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" remote="fxp" revision="jellybean" />
-  <project path="device/semc/haida" name="CyanogenMod/android_device_semc_haida" remote="fxp" revision="jellybean" />
-  <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" remote="fxp" revision="jellybean" />
-  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" remote="fxp" revision="jellybean" />
-  <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" remote="fxp" revision="jellybean" />
-  <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" remote="fxp" revision="jellybean" />
-  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" remote="fxp" revision="jellybean" />
-  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="fxp" revision="jellybean" />
-  <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="fxp" revision="jellybean" />
-  <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" remote="fxp" revision="jellybean" />
-  <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="fxp" revision="jellybean" />
+
+<!-- any repo added by KXP should be below this line. if any repo is replaced, commit out the original above and add new one below -->
+  <project path="manifest/kxp" name="platform_manifest" remote="kxp" revision="jb" />
+  
+  <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" remote="cm" revision="jellybean" />
+  <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" remote="cm" revision="jellybean" />
+  <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" remote="cm" revision="jellybean" />
+  <project path="device/semc/haida" name="CyanogenMod/android_device_semc_haida" remote="cm" revision="jellybean" />
+  <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" remote="cm" revision="jellybean" />
+  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" remote="cm" revision="jellybean" />
+  <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" remote="cm" revision="jellybean" />
+  <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" remote="cm" revision="jellybean" />
+  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" remote="cm" revision="jellybean" />
+  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" remote="cm" revision="jellybean" />
+  <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="cm" revision="jellybean" />
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
 
-<!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="cm" revision="jellybean" />
-
-<!-- Vendors -->
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="jellybean" />
   <project path="vendor/kxp" name="vendor_kxp" remote="kxp" revision="jb" />
   <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="jellybean" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="cm" revision="jellybean" />
+  
+  <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="cm" revision="jellybean" />
+  
   <project path="vendor/ti/fmradio" name="pikpok/vendor_ti_fmradio" remote="gh" revision="jellybean" />
+  
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="jellybean" />
 
-<!-- Unofficial packages that we like adding to our ROM ;) -->
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="jellybean" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="jellybean" />
 
-
-<!-- We use hardware from CM 10 -->
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="fxp"/>
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="fxp"/>
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="fxp"/>
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="fxp"remote="fxp"/>
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="fxp"/>
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="fxp"/>
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="fxp"/>
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="fxp"/>
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="fxp"/>
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="fxp"/>
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="fxp"/>
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="fxp"/>
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="fxp"/>
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="fxp"/>
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
 </manifest>
