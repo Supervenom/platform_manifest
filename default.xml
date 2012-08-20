@@ -397,7 +397,7 @@ this avoid merging conflicts from AOKP manifest
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" remote="fxp" revision="jellybean" />
   <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" remote="fxp" revision="jellybean" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="fxp" revision="jellybean" />
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
+  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jb" />
   <project path="device/sony/nozomi" name="CyanogenMod/android_device_sony_nozomi" remote="fxp" revision="jellybean" />
   <project path="device/sony/fuji-common" name="CyanogenMod/android_device_sony_fuji-common" remote="fxp" revision="jellybean" />
 
@@ -408,7 +408,7 @@ this avoid merging conflicts from AOKP manifest
 <!-- Vendors -->
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="jb" />
   <project path="vendor/kxp" name="vendor_kxp" remote="kxp" revision="jb" />
-  <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="jellybean" />
+  <project path="vendor/semc" name="proprietary_vendor_semc" remote="kxp" revision="jb" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="fxp" revision="jellybean" />
   <project path="vendor/ti/fmradio" name="pikpok/vendor_ti_fmradio" remote="gh" revision="jellybean" />
 
