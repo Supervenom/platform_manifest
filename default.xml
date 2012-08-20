@@ -398,9 +398,12 @@ this avoid merging conflicts from AOKP manifest
   <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" remote="fxp" revision="jellybean" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" remote="fxp" revision="jellybean" />
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="kxp" revision="jellybean" />
+  <project path="device/sony/nozomi" name="CyanogenMod/android_device_sony_nozomi" remote="fxp" revision="jellybean" />
+  <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="kxp" revision="jellybean" />
 
 <!--Device kernels -->
   <project path="kernel/semc/msm7x30" name="CyanogenMod/semc-kernel-msm7x30" remote="fxp" revision="jellybean" />
+  <project path="kernel/sony/msm8660" name="CyanogenMod/sony-kernel-msm8660" remote="fxp" revision="android-msm-3.0-jb" />
 
 <!-- Vendors -->
   <project path="vendor/aokp" name="vendor_aokp" remote="kxp" revision="jb" />
@@ -425,9 +428,11 @@ this avoid merging conflicts from AOKP manifest
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="fxp" revision="jellybean"/>
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="fxp" revision="jellybean"/>
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="fxp" revision="jellybean"/>
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="jellybean"/>
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="fxp" revision="jellybean"/>
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="fxp" revision="jellybean"/>
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="fxp" revision="jellybean"/>
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="fxp" revision="jellybean"/>
+
 
 </manifest>
