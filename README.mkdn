@@ -6,8 +6,7 @@ Getting Started
 
 To initialize your local repository using the KangXperiaProject trees, use a command like this:
 
-    repo init -u https://github.com/KangXperiaProject/platform_manifest.git -b ics
-
+    repo init -u https://github.com/Supervenom/platform_manifest.git -b jb
 Then to sync up:
 
     repo sync
